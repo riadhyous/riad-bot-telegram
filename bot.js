@@ -338,8 +338,8 @@ bot.action('Restaraunt', ctx => {
     })
 })
 bot.hears('MENU', ctx => {
-    bot.telegram.sendPhoto(ctx.chat.id, { source: "res/food.png" })
+        bot.telegram.sendPhoto(ctx.chat.id, { source: "res/food.png" })
 
-})
+    }) *
 
-bot.launch();
+    bot.launch();
